@@ -1,4 +1,4 @@
-`react` `redux-saga`
+`react` `redux-saga` `rx saga blog`
 
 # Getting Started with Create React App + REDUX SAGA
 
@@ -25,7 +25,11 @@ import the boostrap.min.css in the index.js file.
 import "bootstrap/dist/css/bootstrap.min.css";
 
 ```bash
-    $ npm install node-sass@8.0
+    $ npm install autoprefixer@10.4.5 --save-exact
+```
+
+```bash
+    $ npm install node-sass@8.0 --save
 ```
 
 Write the styles in /assets/scss/style.scss file.
@@ -35,7 +39,7 @@ Next, need to import this style file in the index.js file as well.
 import "./assets/scss/style.scss";
 
 ```bash
-    $ npm install redux
+    $ npm install redux --save
 ```
 
 ```bash
@@ -44,6 +48,10 @@ import "./assets/scss/style.scss";
 
 ```bash
     $ npm install redux-saga
+```
+
+```bash
+    $ npm install react-loader-spinner@4.0.0
 ```
 
 **The [Saga docs](https://redux-saga.js.org/docs/api#effect-creators) for effect creators.**
@@ -62,3 +70,8 @@ Note that, every time you change the .env file, we should restart the app.
 ```bash
     REACT_APP_APP_URL= "https://jsonplaceholder.typicode.com"
 ```
+
+####
+
+REFERENCE:
+Employed by [Syamlal CM](https://www.techomoro.com/how-to-use-redux-saga-in-a-react-app-simple-blog-example/)
