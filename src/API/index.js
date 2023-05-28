@@ -18,3 +18,8 @@ export const getCustomers = () => {
     response.json()
   );
 };
+export const getComments = () => {
+  return fetch("https://dummyjson.com/comments").then((response) =>
+    response.json()
+  );
+};
